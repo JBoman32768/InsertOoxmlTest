@@ -7,7 +7,7 @@ When the InsertOoxml method is called with any valid OOxml input it fails with e
 word-web-16.00.debug.js:11162 Uncaught (in promise) Error: unknown at new RuntimeError (word-web-16.00.debug.js:11162) at RequestContext.ClientRequestContext.processRequestExecutorResponseMessage (word-web-16.00.debug.js:13713) at word-web-16.00.debug.js:13620
 ```
 
-To avoid cofusing the issue with quesitons about the validitity of the Ooxml used to call the method, this project includes the following code behinf the button in the UI that gets the current selection and attempts to duplicate the content via Ooxml.
+To avoid cofusing the issue with quesitons about the validitity of the Ooxml used to call the method, this project includes the following code behind a button in the UI that gets the current selection and attempts to duplicate the content via Ooxml.
 
 ``` javascript
 await Word.run(async (context) => {
